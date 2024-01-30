@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to right, #eb7134,#eb4f34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    background-color: rgba(227, 123, 107, 0.482);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(112, 64, 56);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #4a1e17;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #5c281f;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    border: 1px solid #5c281f;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background: #f4b3a9;
+    cursor: pointer;
+}
